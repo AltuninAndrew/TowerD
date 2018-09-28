@@ -8,7 +8,7 @@ public class ButtonSaleTow : MonoBehaviour {
     [SerializeField]
     MoneyController moneyController;
 
-    const int COEFFICIENT = 2;
+    const int COEFFICIENT = 2; // how much less money for the sale than for the purchase
 
     public void Sell()
     {
