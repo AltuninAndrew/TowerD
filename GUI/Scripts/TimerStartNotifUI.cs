@@ -6,9 +6,7 @@ public class TimerStartNotifUI : MonoBehaviour {
     [SerializeField]
     private int startDelay = 20; // maybe you need to increase the time?
 
-
     private Text textLabel;
-
     private int counter;
     private bool isActive = true;
 
