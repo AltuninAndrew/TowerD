@@ -27,14 +27,11 @@ public class TowerPlace : MonoBehaviour,IPointerDownHandler{
             
             //*call anim
         }
-        else
-        {    
-            if(!isEmpty && !buttonPause.isActive)
-            {
-                panelTowerMenu.gameObject.SetActive(true);
-                panelTowerMenu.currentTowerObj = currentTower;
-            }
-            //*call anim
+        else if (!isEmpty && !buttonPause.isActive)
+        {   
+               panelTowerMenu.gameObject.SetActive(true);
+               panelTowerMenu.currentTowerObj = currentTower;
+               //*call anim
         }
     }
 
