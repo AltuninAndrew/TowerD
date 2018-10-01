@@ -8,3 +8,6 @@ Protect the main artifact of the village-the egg from the creepy skeletons, inst
 The architecture is based on the interaction of controllers. Each controller is represented by an object behavior component.
 In addition to the main controllers, there are components that define additional features of objects. This architecture is not completely strict
 
+# importantly
+The current development is completely raw, it lacks a lot of planned features and competent game design. It is also worth noting that the optimization at the moment leaves much to be desired.
+
