@@ -5,13 +5,11 @@ using UnityEngine;
 public class PoolHierarchy : MonoBehaviour {
 
     private List<GameObject> elementsPool = new List<GameObject>();
-
-    //integrate the parent object! 
-
+    
     public GameObject InstantiateObj(GameObject prefab, Vector3 positionSpawn, Quaternion rotation)
     {
         GameObject returnedObj=null;
-
+        
         foreach(GameObject obj in elementsPool)
         {
             if (obj.activeInHierarchy == false)
@@ -22,16 +20,14 @@ public class PoolHierarchy : MonoBehaviour {
                 break;   
             }
         }
-
+        
         if(returnedObj==null)
         {
             returnedObj = GameObject.Instantiate(prefab, positionSpawn, rotation);
             elementsPool.Add(returnedObj);
            
         }
-
         return returnedObj;
-
     }
 
     public void RemoveAllElements()
@@ -42,9 +38,4 @@ public class PoolHierarchy : MonoBehaviour {
        }
        elementsPool.Clear();
     }
-
-   
-
-    
-
 }   
