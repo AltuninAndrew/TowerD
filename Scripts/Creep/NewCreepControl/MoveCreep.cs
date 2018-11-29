@@ -54,11 +54,4 @@ public class MoveCreep : MonoBehaviour {
         targetPoints = targP;
     }
 
-    
-
-
-
-   
-
-
 }
