@@ -1,5 +1,5 @@
 # TowerD
-Representative of the classic tower defence.
+Representative of the classic tower defense.
 
 # Essence of game
 Protect the main artifact of the village-the egg from the creepy skeletons, installing towers with different characteristics on special plates. The budget is limited, each tower has a limited number of bullets that need to be reloaded. Fight off a few waves to win.
